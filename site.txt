@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="logo">
+            <img src="./images/7b314dd5-c766-4046-8e2f-02a35e9e67c2.png" alt="logo">
+        <a href="#!">Propico</a>    
+        </div>
+            <div class="way">
+                <a href="#!">Our Guarantee</a>
+                <a href="#!">How It Works</a>
+                <a href="#!">Pricing</a>
+                <a href="#!">FAQ</a>
+                <a href="#!">For Tenants</a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+        <div class="mainpage">
+            <div class="mainpageinfo">
+                <h1>Guaranteed Rent. Every Month. No Exceptions</h1>
+            <p>Turn uncertainty into predictable income, regardless of vacancies or tenantissues</p>
+            <p> We take on the risk so you don't have to. Guaranteed fixed monthly payments on time, every time</p>
+            <div class="mainpagebuttons">
+                <button class="getstarted">Get Started &#8594</button>
+            <button class="getyourrent">Get Your Rent Estimate</button>
+            </div>
+            </div>
+            <div class="mainpagepic">
+                <img class="house" src="./images/photo-1600585154340-be6161a56a0c.avif" alt="house">
+            </div>
+        </div>
+        <div class="gridtext">
+            <div class="firstgrid">
+                <h2>Property Management</h2>
+                <p>Full-service property management delivering upto 40% higher net rental returns</p>
+            </div>
+            <div class="secondgrid">
+                <h2>Risk-Free Income</h2>
+                <p>100% assured timely rent payment, guaranteed even during vacancies</p>
+            </div>
+            <div class="thirdgrid">
+                <h2>Time-Saving</h2>
+                <p>We handle everything while you focus on what matters most to you</p>
+            </div>
+        </div>
+        <div class="contacttext">
+            <h3>Get your guarantee drent offer today</h2>
+            <p>Fill in your. details and we'll contact you with an offer</p>
+            <div class="flexcontact">
+                <input type="text" placeholder="Your Name">
+  <input type="text" placeholder="Phone Number">
+  <input type="text" placeholder="Your Email">
+  <input type="text" placeholder="Your City">
+  <button>Get My Offer</button>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section class="property">
+        <div class="container">
+        <div class="propertyinfo">
+            <h2>The Hidden Costs of Traditional Property Management</h2>
+            <p>Every month without a tenant costs you more than just lost rent. Traditional property management leaves you vulnerable to:</p>
+        </div>
+        <!-- <div class="cards">
+            <div class="firstcard"></div>
+            <div class="secondcard"></div>
+            <div class="thirdcard"></div>
+            <div class="buttoncard"></div>
+        </div> -->
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-size: 16px;
+    line-height: 1.75rem;
+}
+
+body {
+    margin: 0;
+    font-family: Raleway, Arial;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+  width: 100%; 
+  display: flex;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+}
+
+h1, h2, h3 {
+    color: #4A23AD;
+}
+
+p {
+color:#4B5563;
+font-size: 16px;
+}
+
+/* Navigation */
+
+
+nav {
+    /* position: sticky; */
+    width: 100%;
+}
+
+.navigation {
+    /* SUDA */
+    display: none; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    color: #4A23AD;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo img {
+    height: 20%;
+}
+
+.way {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.way a {
+    color: #374151;
+    font-size: 18px;
+}
+
+/* Header */
+
+.mainpageinfo h1 + p {
+    font-size: 20px;
+}
+
+.mainpageinfo p + p {
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.mainpage {
+    display: grid;
+    gap: 4%;
+    
+}
+
+.house {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.mainpagepic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainpage h2 {
+    color:#4B5563;
+    font-weight: normal;
+}
+
+.mainpageinfo {
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+}
+
+
+.gridtext {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 3.5rem auto;
+}
+
+.firstgrid, .secondgrid, .thirdgrid {
+    border-style: solid;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid rgba(75, 85, 99, 0.1);
+}
+
+.gridtext h2 {
+    font-size: 18px;
+}
+
+
+
+.mainpagebuttons {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.getstarted {
+font-size: 16px;
+padding: 10px 32px;
+background-color: #4A23AD;
+color: white;
+border: 5px solid #4A23AD;
+border-radius: 5px;
+width: 200px;
+}
+
+.getyourrent {
+    font-size: 16px;
+    background-color: white;
+    color: #4A23AD;
+    padding: 1rem;
+    border-color: #4A23AD;
+    border-radius: 5px;
+    border: 1px solid #4A23AD;
+    width: 280px;
+}
+
+.contacttext {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgba(75, 85, 99, 0.1);
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 4px 7px 1px rgba(0,0,0,0.2); 
+    box-shadow: 0px 4px 7px 1px rgba(0,0,0,0.2);
+}
+
+.flexcontact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.contacttext p {
+  
+}
+
+.contacttext input {
+    border-radius: 4px;
+    padding: 12px 12px;
+    border: 1px solid rgba(75, 85, 99, 0.1);
+    box-sizing: border-box;
+    width: 90%;
+   
+
+}
+
+.contacttext button {
+    padding: 8px 16px;
+    background-color: #FF5A6F;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    border: solid;
+    width: 92%;
+    font-weight: 600;
+    
+}
+
+/* Property */
+
+.property {
+    padding: 64px 0;
+}
+
+.propertyinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.propertyinfo p {
+font-size: 18px;
+}
+
+.propertyinfo h2 {
+    font-size: 30px;
+}
